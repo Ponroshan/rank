@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+int n;
+printf("\n1.pizza -price=239\n2.Burger-price=129\n3.Pasta-price=179\n4.Frenchfries-price=99\n5.sandwich-price=149");
+printf("\nenter the dish number");
+scanf("%d",&n);
+switch(n)
+{
+case 1:
+printf("Food item = pizza\n price=239");
+break;
+case 2:
+printf("Food item = burger\n price=129");
+break;
+case 3:
+printf("Food item = pasta\n price=179");
+break;
+case 4:
+printf("Food item = frenchfriew\n price=99");
+break;
+case 5:
+printf("Food item = sandwich\n price=149");
+break;
+default:
+printf("invalid input");
+}
+return 0;
+}
+
+
+    
